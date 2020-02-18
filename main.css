@@ -1,0 +1,121 @@
+ody{
+    background-color: #fff;
+}
+#header{
+    height:120px;
+    border: 2px #333399 solid;
+}
+#aside{
+    float: left;
+    height: 1000px;  
+    width: 19%;
+    background-color: #3399ff;
+    border: 2px #333399 solid;
+}
+#article{
+    float: right;
+    height: 550px;  
+    width: 80%;
+    border: 2px #333399 solid;
+}
+#section{
+    float: right;
+    height: 446px;  
+    width: 80%;
+    background-color: #3399ff;
+    width:80%;
+    border: 2px #333399 solid;
+}
+
+.logo{
+    float: left;
+    width: 120px;
+    margin-left:20px;
+}
+.button1{
+    float:right;
+    margin:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:#fff;
+    background-color: #333399;
+}
+.nav-li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color:#fff;
+}
+.span1{
+    margin:50px;
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #3366cc;
+    vertical-align: middle;
+    position: relative;
+}
+#p1{
+    position:absolute;
+    padding: 40px;
+    
+}
+#span2{
+    display:inline-block;
+    margin:50px;
+}
+#span3{
+    display:inline-block;
+    width: 62%;
+    margin-top:50px;
+    margin-right:50px;
+    color:#333399;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.div1{
+    width:25%;
+    margin:30px;
+    margin-left: 50px;
+    display: inline-block;
+    color:#333399;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 1000;
+}
+#button2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color:#fff;
+    background-color: #333399;
+}
+#table1{
+    margin-left: 50px;
+}
+table ,td{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    color: #333399;
+    font-style: italic;
+    font-size:20px;
+    text-align: center;
+    padding: 5px;  
+    width: 800px;
+}
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid white;
+    color: #333399;
+    font-weight: 1000;  
+}
+
+#p2{
+    margin-left: 50px;
+    color: #333399; 
+    font: size 30px;
+    font-weight: 1000;
+    padding: 5px;   
+}
+
+
