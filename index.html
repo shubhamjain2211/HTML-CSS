@@ -1,126 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML and CSS practice</title>
+    <title>Responsive Layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
-
 <body>
-
-    <header id="header">
-        <img src="logo.png" alt="To The New Logo" class="logo">
-        <button class="button1">Login</button>
-    </header>
-     <main class = "main">
-    <aside id="aside">
-        <ul>
-            <li class="nav-li">Nav1</li>
-            <li class="nav-li">Nav2</li>
-            <li class="nav-li">Nav3</li>
-            <li class="nav-li">Nav4</li>
-            <li class="nav-li">Nav5</li>
-            <li class="nav-li">Nav6</li>
-        </ul>
-    </aside>
-
-    <div class ="sm">
-    <article id="article">
-        <span class="span1 nav-li"><p id="p1">150*150</p></span>
-        <span class="span1 nav-li"><p id="p1">150*150</p></span>
-        <span class="span1 nav-li"><p id="p1">150*150</p></span>
-        <span class="span1 nav-li"><p id="p1">150*150</p></span>
-        <br>
-        <span id="span2"><img src="logo.png" alt="To The New"></span>
-        <span id="span3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et rem incidunt molestias hic voluptatem amet iusto consequatur magnam a sint, perspiciatis quae adipisci repellat dolorum pariatur aut repellendus. Rem, sequi?
-        Libero tempora suscipit voluptatibus quo? Rerum accusamus eum cumque porro iure, exercitationem nostrum? Natus molestiae eligendi tempora, ipsa soluta eius dolorem vitae laboriosam sapiente, architecto nam ducimus id asperiores enim!
-        Totam iste, sapiente mollitia sed ipsam possimus recusandae repellat veniam molestias laudantium rem iusto corrupti vero voluptatem consequuntur et voluptates quisquam ad nobis assumenda? Repellendus quasi hic laudantium dolorum molestiae?
-        Deleniti distinctio quas amet nemo doloremque, sint quod nobis rem officia exercitationem maiores porro consectetur quisquam eos voluptates illo recusandae error at? Hic asperiores aperiam perspiciatis eaque est explicabo distinctio?
-        Expedita facere neque nostrum magnam quisquam quidem veritatis maxime impedit sequi quam in enim soluta quas cumque unde ducimus, placeat accusantium ipsum consequatur odit saepe ab, culpa recusandae? Corporis, vel.
-        </span>
-    </article>
-
-    <section id="section">
+    <div class="container">
+        <main class="main">
+            <div class="overlay">
+                <header class="header">
+                    <span class="span1">Resposive Layout</span>
+                    <span class="span2">
+                        <ul>
+                           <li>Home</li>
+                           <li>Generic</li>
+                           <li>Elements</li>
+                        </ul>
+                    </span>
+                    <span class="span3">
+                        <i class="fas fa-bars"></i>
+                        <div class="ham-menu">
+                            <ul>
+                                <li>Home</li>
+                                <li>Generic</li>
+                                <li>Elements</li>
+                            </ul>
+                        </div>
+                    </span>
+                </header>
+                <section class="section">
+                    <div class="div1">Welcome</div>
+                    <div class="div2">
+                        <i class="fas fa-car"></i>
+                        <p>Travel</p>
+                        <p>Choose a ride</p>
+                    </div>
+                    <div class="div3">
+                        <i class="fas fa-camera"></i>
+                        <p>Gallery</p>
+                        <p>Choose Photos</p>
+                    </div>
+                    <p><a class="btn" href="#">Get Started</a></p>
+                </section>
+            </div>
+        </main>
         
-        <form action="#">
-            <div class="div1"><label for="name">Name</label><br><br>
-            <input type="text" name="name" id="name" placeholder="Name here"></div>
-            <div class="div1"><label for="email">Email</label><br><br>
-            <input type="email" name="email" id="email" placeholder="Email here"></div>
-            <div class="div1"><input id="button2" type="submit" value="Submit"></div><br>   
-        </form>
-
-        <div id="div3">
-        <table id="table1">
-            <thead>
-                <p id="p2">USER<p>
-            </thead>
-            <tr>
-                <th colspan="2">
-                    Name
-                </th>
-                <th rowspan="2">
-                    Training<br>Name
-                </th>
-            </tr>
-            <tr>
-                <th>
-                    First Name
-                </th>
-                <th>
-                    Last Name
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    qwe
-                </td>
-                <td>
-                    rty
-                </td>
-                <td>
-                    uio
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    qwe
-                </td>
-                <td>
-                    rty
-                </td>
-                <td>
-                    uio
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    qwe
-                </td>
-                <td>
-                    rty
-                </td>
-                <td>
-                    uio
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    qwe
-                </td>
-                <td>
-                    rty
-                </td>
-                <td>
-                    uio
-                </td>
-            </tr>
-        </table>
-        </div>
-    </section>
+        <footer class="footer">
+            <div class="div1">
+                <img src="1.jpg" alt="image 1">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, expedita quam dolorum dolor distinctio maxime consectetur amet eius omnis consequatur?</p>
+                <p><a class="btn" href="#">Learn More</a></p>
+            </div>
+            <div class="div2">
+                <img src="2.jpeg" alt="image 2">
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deleniti nisi sit iste accusamus repellat laudantium voluptatibus explicabo fugiat tenetur.</p>
+                <p><a class="btn" href="#">Learn More</a></p>
+            </div>
+        </footer>
     </div>
-    </main>
 </body>
 </html>

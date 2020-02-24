@@ -1,0 +1,72 @@
+@media (max-width :768px){
+.main{
+    position: relative;
+    z-index:1;
+}
+.header{
+    max-width: 95%;
+    padding: 2% 0;
+    height:10%;
+}
+.header .span2{
+    display: none;
+}
+.header .span3{
+    display: block;
+    float: right;
+}
+.header .span3 .fas{
+    color:#1ee6ba;
+    font-size: 2em;
+}
+.header .span3 .fas:hover{
+    color:white;
+    
+}
+.header .span3 .fas:hover +.ham-menu {
+    display : inline-block;
+}
+
+.ham-menu{
+    display: none;
+    position:absolute;
+    right:0;
+    top:10%;
+    height: 90%;
+    width:25%;
+    background-color: #1ee6ba;
+    opacity: 0.9;
+    z-index:2;
+    color: #fff;
+}
+.ham-menu ul li{
+    padding: 1em 0;
+    border-bottom: 1px solid #fff;
+    list-style: none;
+}
+.section{
+    height:90%;
+}
+.section .div1{
+    padding : 1%;
+}
+.section .div2, .section .div3{
+    display: block;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    margin:0;
+}
+.section .div3{
+    padding: 2em 0;
+}
+.section .fas{
+    padding: 15% 0;
+}
+.footer .div1, .footer .div2{
+    float:none;
+    display: inline-block;
+    padding: 10% 0;
+    width:100%;
+}
+}
