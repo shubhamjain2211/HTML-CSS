@@ -69,10 +69,10 @@ body{
     padding: 0.5em;
 }
 .section .div2{
-    padding: 3em 5em 1em 5em;
+    padding: 3em 5em 0 5em;
     border-right: 1px #ccc solid;
     display: inline-block;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 .section .fas{
     color: #1ee6ba;
@@ -86,9 +86,9 @@ body{
     transition: 0.3s;
 }
 .section .div3{
-    padding: 3em 5em 1em 5em;
+    padding: 3em 5em 0 5em;
     display: inline-block;
-    margin-bottom: 2em
+    margin-bottom: 1em
 }
 .section .div2 :last-child,.section .div3 :last-child{
     font-size: 0.6em;
