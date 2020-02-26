@@ -90,15 +90,22 @@ li{
     height: 83px;
     width:60%;
     float:right;
-    padding-top: 20px;
+    padding: 10px 0;
 }
 .logo-bar-right p{
-    padding-left: 80px;
+    padding: 0 0 0 80px;
 }
 .logo-bar-right ul li{
     list-style: none;
-    padding-right: 25px;
+    padding-right: 25px; 
     float: left;
+}
+.logo-bar-right ul li div{
+    display: inline-block;
+}
+.logo-bar-right ul li .div1{
+    display: inline-block;
+    padding-top: 15px;
 }
 .nav{
     height:47px;
