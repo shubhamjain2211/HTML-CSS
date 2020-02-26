@@ -1,0 +1,223 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+}
+.btn{
+    padding: 0.5em 1em;
+    background-color: #5fca2d;
+    border-radius: 5%;
+    text-decoration: none;
+    color: #fff;
+    line-height: 3em;
+    font-size:1.2em;
+}
+.btn:hover{
+    background-color: #45a11a;
+}
+header{
+    background-color: rgb(51, 51, 51);
+    display: flex;  
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 5;
+
+}
+    header div span{
+        color:#5fca2d;
+    }
+    header div h3{
+        padding:1em; 
+        font-size: 1.5em;
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li{
+        list-style: none;
+        padding:1.8em;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    nav ul li:hover{
+        background-color: #5fca2d;
+        border-radius: 10%;
+    }
+.showcase{
+    background: url('/img/showcase.jpg') center center/cover no-repeat;
+    height:110vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+}   
+.overlay{
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    height:110vh;
+    z-index: 2;
+}
+    .showcase div{
+        text-align: center;
+        z-index: 3;
+    }   
+    .showcase .div-data h1{
+        font-size: 4em;
+        line-height: 2em;
+    }
+    .showcase .div-data p{
+        font-size: 1em;
+        line-height: 3em;
+    }
+    .showcase .div-data h1{
+        font-size: 4em;
+    }
+.section1{
+    color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1em;
+}
+    .section1 h1{
+        font-size: 2.2em;
+    }
+    .section1 span{
+        color:#5fca2d;
+    }
+    .section1 .div1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .section1 .div1 h3{
+        padding-bottom: 0.4em;
+    }
+    .section1 .div1 .data{
+        width: 15%;
+        text-align: justify;
+        padding: 0.5em;
+    }
+    .section1 .div1 .logo{
+        background-color:#5fca2d;
+        width: 1vh;
+        height: 1vh;
+        align-self: center;
+        padding: 1em 2.5em 2.5em 1em;
+        border-radius: 50%;
+        margin: 0 0.5em 0 1em;
+    }
+.section2{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+    .section2 .div1,.section2 .div2{
+        width:50%;
+    }
+    .section2 .div1{
+        background: url('/img/people.jpg') center center/cover no-repeat;
+    }
+    .section2 .div2{
+        background-color: rgb(51, 51, 51);
+    }
+    .section2 .div2 span{
+        color: #5fca2d;
+    }
+    .section2 .div2 h1,p,h3{
+        padding:1em;
+    } 
+    .section2 h1{
+        font-size: 2em;
+    }   
+    .section2 h3{
+        padding: 0 1em 1em 1em;
+    }
+    .section2 .div2 ul li{
+        list-style: none;
+        padding: 0.5em 1em 0.5em 1em;
+        border-bottom: 1px dotted rgb(92, 90, 90);
+    }
+.logos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(51, 51, 51);
+}
+    .logos span{
+        color: #5fca2d;
+    }
+    .logos h1{
+        font-size: 2em;
+        line-height: 2em;
+    }
+    .logos .div2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .logos .div2 img{
+        width:10%;
+        padding-bottom: 1em;
+    }
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+    main .div1{
+        padding: 1.5em;
+        line-height: 2em;
+        width:40%;
+        background-color: #5fca2d;
+    }
+    main .div2{
+        width:60%;
+        background: url('/img/google-map.png') center center/cover no-repeat;
+    }
+    main h2{
+        font-size: 2em;
+    }
+    main form{
+        display: flex;
+        flex-direction: column;
+        line-height: 2.5em;
+        font-size: 1em;
+    }
+    main form input{
+        padding: 0.5em;
+    }
+    main form .send{
+        margin-top: 1em;
+        background-color: #000;
+        color: #fff;
+        border-radius: 0.5em;
+        border: 0;
+    }
+    main form .send:hover{
+        background-color: #45a11a;
+    }
+footer{
+    background-color: rgb(51, 51, 51);
+}
+    footer p{
+        text-align: center;
+        padding:2em;
+    }
